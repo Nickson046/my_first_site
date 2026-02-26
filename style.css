@@ -41,3 +41,13 @@ button {
 button:hover {
     background: #45a049;
 }
+contact-form {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+contact-form.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
